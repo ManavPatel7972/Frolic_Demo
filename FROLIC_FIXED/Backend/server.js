@@ -26,14 +26,14 @@ mongoose
     console.log(err);
   });
 
-const authRoutes = require("./routes/auth");
-const userRoutes = require("./routes/user");
-const instituteRoutes = require("./routes/institute");
-const departmentRoutes = require("./routes/department");
-const eventRoutes = require("./routes/event");
-const groupRoutes = require("./routes/group");
-const particpantRoutes = require("./routes/participant");
-const eventWiseWinnerRoutes = require("./routes/eventWiseWinners");
+const authRoutes = require("./src/routes/auth");
+const userRoutes = require("./src/routes/user");
+const instituteRoutes = require("./src/routes/institute");
+const departmentRoutes = require("./src/routes/department");
+const eventRoutes = require("./src/routes/event");
+const groupRoutes = require("./src/routes/group");
+const particpantRoutes = require("./src/routes/participant");
+const eventWiseWinnerRoutes = require("./src/routes/eventWiseWinners");
 
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
